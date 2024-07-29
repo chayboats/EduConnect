@@ -28,8 +28,9 @@
   background-color: rgb(6, 175, 133);
 }
 
-.fa-solid {
+.fa-hand-holding-heart, .fa-award, .fa-shield {
   color: white;
+
 }
 
 .lh-1 {
@@ -63,7 +64,11 @@
 .carousel-img {
   border-radius: 2rem;
   background-size: cover;
+  background-position: center;
   height: 468px;
+  @media( max-width: 768px ){
+    height: 300px;
+  }
 }
 
 .img-1 {
